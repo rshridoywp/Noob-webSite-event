@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+/* @media screen and (min-width: 400px) {
+ p{
+ color: #61dafb;
+}
+  }
+@media screen and (min-width: 800px) {
+    p{
+        color: #61dafb;
+       } } */
+
+hover-button:hover {
+    border-bottom: 2px solid white;
+}
+
+body {
+    background-color: #282b2f;
+}
+
+/* navigation part start */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:fit-content;
+    background-color: #466a82;
+    padding: 0 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 2vw;
+}
+
+.menu-items ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-items ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.menu-items ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 8px 0;
+    display: block;
+}
+
+.search-box {
+    border: 1px solid white;
+    width: 300px;
+    /* position: relative; */
+    display: flex;
+}
+
+.search-box input {
+    width: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    /* border-radius: 4px; */
+
+}
+
+.icon-search {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: 1px solid white;
+    background-color: white;
+    width: 10%;
+}
+
+/* navigation var End */
+/* header part start */
+header {
+    background-image: url(/images/bannar.png);
+    height: 50vh;
+}
+
+/* bannar Element start */
+
+.bannarElement {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding: 1%;
+}
+
+.bannarContant {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 49%;
+    padding: 10px;
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 20px;
+    overflow: scroll;
+}
+
+.bannarBtn {
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.bannarBtn button {
+    min-height: 2vw;
+    min-height: 0.25vw;
+    /* margin: 5px;*/
+    padding: 5px;
+    background-color: rgb(247, 255, 255);
+    font-size: 20px;
+    font-weight: 200;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.bannarBtn button a {
+    text-decoration: none;
+    color: #61dafb;
+}
+
+.bannarImage {
+    /* position: relative; */
+    width: 49%;
+    height: 100%;
+    background-image: url(images/hand\ shake\ pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 600px) {
+   p{
+    color: #ffffff;
+   }
+  }
+/* heder part end  */
+/* main part staart  */
+.contributors {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(76, 77, 77);
+    display: flex;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.contributor {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+
+}
+
+.contributor-image {
+    background-image: url(images/profile.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+.contributor-information {
+    text-align: center;
+}
+
+/* project part start  */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.project-details {
+    flex: 1;
+}
+
+.project-title {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.project-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.project-link {
+    font-size: 16px;
+    color: #59595a;
+    text-decoration: none;
+}
+
+.project-link:hover {
+
+    }
+
+/* footer start  */
+.footer {
+        background-color: #282c34;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+}
+
+.footer a {
+        color: #61dafb;
+        text-decoration: none;
+        margin: 0 10px;
+}
+
+ .footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons {
+        margin-top: 10px;
+}
+
+.footer .social-icons a {
+        margin: 0 5px;
+}
+
+
+.footer p {
+        margin: 10px 0;
+}
